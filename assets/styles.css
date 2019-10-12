@@ -251,6 +251,12 @@ h2 {
         margin: 0px; 
         padding: 0px; 
     }
+    header {
+      width: 100% ; 
+      float: center ; 
+      clear: right ; 
+      margin: 0px; 
+      padding: 0px; 
     }
     #logo {
       width: 100%;  
@@ -260,11 +266,16 @@ h2 {
       
     }
     #nav {
-      position: center; 
+      width: 100%; 
+      text-align: center; 
+      overflow: hidden;
       float: left; 
       clear: right; 
     }
     #nav a {
+      width: 100%; 
+      text-align: center; 
+      overflow: hidden ;
 position: center ; 
 float: left; 
 clear: right; 
