@@ -245,6 +245,10 @@ h1 {
 h2 {
   font-size: 18px;
 }
+nav {
+  width: 100%; 
+}
+ 
 @media screen and (max-width: 640px) {
     main-header {
         position: static; 
@@ -258,27 +262,18 @@ h2 {
       margin: 0px; 
       padding: 0px; 
     }
-    #logo {
+    logo {
       width: 100%;  
       position: center; 
       margin: 0px; 
       padding: 0px; 
       
     }
-    #nav {
+    nav {
       width: 100%; 
       text-align: center; 
-      overflow: hidden;
-      float: left; 
-      clear: right; 
+      
     }
-    #nav a {
-      width: 100%; 
-      text-align: center; 
-      overflow: hidden ;
-position: center ; 
-float: left; 
-clear: right; 
-    }
-    }
+    
+    
 }
